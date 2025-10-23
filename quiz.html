@@ -1,7 +1,20 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Take Quiz - CSM 183</title>
-<link rel="stylesheet" href="styles.css">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Take Quiz - CSM 183</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .correct { background: #e6ffed; border-left: 4px solid #22c55e; padding-left: 8px; }
+    .wrong { background: #ffeaea; border-left: 4px solid #ef4444; padding-left: 8px; }
+    .choice { padding: 8px; border: 1px solid #ccc; border-radius: 5px; margin: 5px 0; cursor: pointer; }
+    .choice.correct { background: #dcfce7; border-color: #22c55e; }
+    .choice.wrong { background: #fee2e2; border-color: #ef4444; }
+    .answer-reveal { margin-top: 6px; font-style: italic; color: #155e75; }
+    #toggleWrong { background: #555; color: #fff; margin-top: 10px; cursor: pointer; border: none; padding: 8px 14px; border-radius: 6px; }
+    #toggleWrong:hover { background: #333; }
+  </style>
 </head>
 <body>
 <header class="header">
@@ -24,10 +37,16 @@
       <button id="finishBtn" class="btn" style="background:#0b9bff">Finish</button>
     </div>
   </section>
+
   <section class="card" id="results-card" style="display:none">
     <h2>Results</h2>
     <div id="results"></div>
-    <p><a id="retry" class="btn">Retry</a> <a id="home" class="btn" href="index.html" style="background:#0747a6">Home</a></p>
+    <button id="toggleWrong" style="display:none">Show only wrong answers</button>
+    <div id="details"></div>
+    <p>
+      <a id="retry" class="btn">Retry</a>
+      <a id="home" class="btn" href="index.html" style="background:#0747a6">Home</a>
+    </p>
   </section>
 </main>
 
@@ -39,10 +58,10 @@ var answers = {};
 var params = new URLSearchParams(location.search);
 var topic = params.get('topic');
 
-fetch('questions.json').then(function(r){return r.json()}).then(function(data){
+fetch('questions.json').then(r=>r.json()).then(data=>{
   allQuestions = data.questions;
   if(topic){
-    quizQuestions = allQuestions.filter(function(q){return q.topic===topic});
+    quizQuestions = allQuestions.filter(q=>q.topic===topic);
     document.getElementById('quiz-title').innerText = 'Topic Quiz: ' + topic;
     document.getElementById('meta').innerText = quizQuestions.length + ' questions available in this topic.';
   } else {
@@ -53,73 +72,123 @@ fetch('questions.json').then(function(r){return r.json()}).then(function(data){
   render();
 });
 
-function shuffle(a){ return a.sort(function(){return Math.random()-0.5}); }
+function shuffle(a){return a.sort(()=>Math.random()-0.5)}
 
 function render(){
-  var qa = quizQuestions[current];
-  var area = document.getElementById('question-area');
+  const qa = quizQuestions[current];
+  const area = document.getElementById('question-area');
   area.innerHTML = '';
   if(!qa){ area.innerHTML = '<p>No questions</p>'; return; }
-  var qdiv = document.createElement('div');
+  const qdiv = document.createElement('div');
   qdiv.className='question';
-  qdiv.innerHTML = '<h3>Q'+(current+1)+'. '+qa.question+'</h3>';
+  qdiv.innerHTML = `<h3>Q${current+1}. ${qa.question}</h3>`;
   area.appendChild(qdiv);
+
   if(qa.type==='mcq'){
-    qa.choices.forEach(function(c,i){
-      var btn = document.createElement('div');
+    qa.choices.forEach(c=>{
+      const btn = document.createElement('div');
       btn.className='choice';
       btn.innerText = c;
-      btn.onclick = function(){ answers[qa.id]=c; highlightSelected(); };
+      btn.onclick = ()=>{ selectAnswer(qa, c, btn); };
       area.appendChild(btn);
     });
   } else if(qa.type==='tf'){
-    ['True','False'].forEach(function(t){
-      var btn = document.createElement('div');
+    ['True','False'].forEach(t=>{
+      const btn = document.createElement('div');
       btn.className='choice';
       btn.innerText = t;
-      btn.onclick = function(){ answers[qa.id]= (t==='True'); highlightSelected(); };
+      btn.onclick = ()=>{ selectAnswer(qa, t==='True', btn); };
       area.appendChild(btn);
     });
   } else if(qa.type==='short'){
-    var input = document.createElement('input');
+    const input = document.createElement('input');
     input.type='text'; input.style.width='100%'; input.placeholder='Type your answer here';
     input.value = answers[qa.id] || '';
-    input.onchange = function(){ answers[qa.id]=input.value; };
+    input.onchange = ()=>{ answers[qa.id]=input.value; };
     area.appendChild(input);
   }
+
   highlightSelected();
-  document.getElementById('prevBtn').onclick = function(){ if(current>0){ current--; render(); } };
-  document.getElementById('nextBtn').onclick = function(){ if(current<quizQuestions.length-1){ current++; render(); } };
+  document.getElementById('prevBtn').onclick = ()=>{ if(current>0){ current--; render(); } };
+  document.getElementById('nextBtn').onclick = ()=>{ if(current<quizQuestions.length-1){ current++; render(); } };
   document.getElementById('finishBtn').onclick = finish;
 }
 
+function selectAnswer(q, chosen, btn){
+  answers[q.id] = chosen;
+  highlightSelected();
+
+  // Instant feedback
+  const all = document.querySelectorAll('.choice');
+  all.forEach(n=>{
+    if(q.type==='mcq' && n.innerText===q.answer) n.classList.add('correct');
+    if(q.type==='tf' && ((q.answer===true && n.innerText==='True') || (q.answer===false && n.innerText==='False')))
+      n.classList.add('correct');
+  });
+  if(q.type==='mcq' && chosen!==q.answer) btn.classList.add('wrong');
+  if(q.type==='tf' && ((chosen===true && q.answer===false)||(chosen===false && q.answer===true))) btn.classList.add('wrong');
+
+  const feedback = document.createElement('div');
+  feedback.className = 'answer-reveal';
+  feedback.innerHTML = `Correct answer: <strong>${(typeof q.answer==='boolean')?(q.answer?'True':'False'):q.answer}</strong>`;
+  if(!document.querySelector('.answer-reveal')) document.getElementById('question-area').appendChild(feedback);
+}
+
 function highlightSelected(){
-  var qa = quizQuestions[current];
-  var nodes = document.querySelectorAll('.choice');
-  nodes.forEach(function(n){ n.style.background=''; });
+  const qa = quizQuestions[current];
+  const nodes = document.querySelectorAll('.choice');
+  nodes.forEach(n=>n.style.background='');
   if(!qa) return;
-  var sel = answers[qa.id];
-  nodes.forEach(function(n){
+  const sel = answers[qa.id];
+  nodes.forEach(n=>{
     if(qa.type==='mcq' && n.innerText===sel) n.style.background='#e6f2ff';
     if(qa.type==='tf' && ((sel===true && n.innerText==='True') || (sel===false && n.innerText==='False'))) n.style.background='#e6f2ff';
   });
 }
 
 function finish(){
-  var correct=0, total=quizQuestions.length;
-  quizQuestions.forEach(function(q){
-    var a = answers[q.id];
-    if(q.type==='mcq' && a===q.answer) correct++;
-    if(q.type==='tf' && ((a===true && q.answer===true) || (a===false && q.answer===false))) correct++;
-    if(q.type==='short' && typeof a==='string' && a.trim().toLowerCase()===String(q.answer).trim().toLowerCase()) correct++;
+  let correct=0, total=quizQuestions.length;
+  let detailHTML = '';
+  quizQuestions.forEach((q, idx)=>{
+    const a = answers[q.id];
+    let isCorrect = false;
+    if(q.type==='mcq' && a===q.answer) isCorrect=true;
+    if(q.type==='tf' && ((a===true && q.answer===true) || (a===false && q.answer===false))) isCorrect=true;
+    if(q.type==='short' && typeof a==='string' && a.trim().toLowerCase()===String(q.answer).trim().toLowerCase()) isCorrect=true;
+    if(isCorrect) correct++;
+    const userAnswerText = (typeof a==='boolean') ? (a?'True':'False') : (a!==undefined?a:'(no answer)');
+    const correctAnswerText = (typeof q.answer==='boolean') ? (q.answer?'True':'False') : q.answer;
+    detailHTML += `
+      <div class="review ${isCorrect?'correct':'wrong'}" data-correct="${isCorrect}" style="margin-bottom:8px">
+        <p><strong>Q${idx+1}.</strong> ${q.question}</p>
+        <p>Your answer: ${userAnswerText}</p>
+        ${!isCorrect?`<p>Correct answer: ${correctAnswerText}</p>`:''}
+      </div>`;
   });
-  var pct = Math.round((correct/total)*100);
-  document.getElementById('results').innerHTML = '<p>Score: <strong>'+correct+'/'+total+'</strong> ('+pct+'%)</p>';
+  const pct = Math.round((correct/total)*100);
+  document.getElementById('results').innerHTML = `<p>Score: <strong>${correct}/${total}</strong> (${pct}%)</p>`;
+  document.getElementById('details').innerHTML = `<h3>Review</h3>${detailHTML}`;
   document.getElementById('quiz-card').style.display='none';
   document.getElementById('results-card').style.display='block';
+  document.getElementById('toggleWrong').style.display='inline-block';
 }
 
-document.getElementById('retry').onclick = function(){ location.reload(); }
+document.getElementById('retry').onclick = ()=>{ location.reload(); }
+
+let showingOnlyWrong = false;
+document.getElementById('toggleWrong').onclick = ()=>{
+  const btn = document.getElementById('toggleWrong');
+  const reviews = document.querySelectorAll('.review');
+  if(!showingOnlyWrong){
+    reviews.forEach(r=>{ if(r.dataset.correct==='true') r.style.display='none'; });
+    btn.textContent = 'Show all questions';
+    showingOnlyWrong = true;
+  } else {
+    reviews.forEach(r=>r.style.display='block');
+    btn.textContent = 'Show only wrong answers';
+    showingOnlyWrong = false;
+  }
+};
 </script>
 </body>
 </html>
