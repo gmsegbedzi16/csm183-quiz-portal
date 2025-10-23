@@ -1,0 +1,2443 @@
+{
+  "title": "CSM 183 Quiz Portal - Question Bank",
+  "source": "Derived from uploaded CSM183 lecture slides (Excel & PowerPoint). See README for citation.",
+  "generated_at": "2025-10-23T22:38:00.273483Z",
+  "questions": [
+    {
+      "id": 67,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "medium"
+    },
+    {
+      "id": 188,
+      "type": "tf",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "easy"
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "medium"
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "topic": "Text functions",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "hard"
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Shortcut to wrap text within a cell is:",
+      "choices": [
+        "Ctrl+W",
+        "Alt+Enter",
+        "Wrap button in Home tab",
+        "None"
+      ],
+      "answer": "Wrap button in Home tab",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function calculates the payment for a loan based on constant payments and constant interest rate?",
+      "choices": [
+        "PMT()",
+        "FV()",
+        "PV()",
+        "RATE()"
+      ],
+      "answer": "PMT()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "type": "tf",
+      "topic": "Lookup & Reference",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 137,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "easy"
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "topic": "Text functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 159,
+      "type": "tf",
+      "topic": "Filtering and Sorting",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 131,
+      "type": "tf",
+      "topic": "Logical functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which view helps preview and set manual page breaks?",
+      "choices": [
+        "Normal View",
+        "Page Break Preview",
+        "Page Layout",
+        "Print Preview"
+      ],
+      "answer": "Page Break Preview",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function returns TRUE if all supplied conditions are true?",
+      "choices": [
+        "AND()",
+        "OR()",
+        "NOT()",
+        "IF()"
+      ],
+      "answer": "AND()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which chart object explains the colors or patterns used to differentiate series?",
+      "choices": [
+        "Axis",
+        "Legend",
+        "Plot area",
+        "Marker"
+      ],
+      "answer": "Legend",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 187,
+      "type": "tf",
+      "topic": "Named Ranges",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 163,
+      "type": "tf",
+      "topic": "Text functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function returns the number of cells that are not empty in a range?",
+      "choices": [
+        "COUNT()",
+        "COUNTA()",
+        "COUNTIF()",
+        "COUNTBLANK()"
+      ],
+      "answer": "COUNTA()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 195,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "topic": "AutoFill & Fill Handle",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 123,
+      "type": "tf",
+      "topic": "Financial functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which feature automatically fills formats for a selected table?",
+      "choices": [
+        "AutoFormat",
+        "Format Painter",
+        "Conditional Formatting",
+        "Styles"
+      ],
+      "answer": "AutoFormat",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "topic": "Getting Started with Excel",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "medium"
+    },
+    {
+      "id": 154,
+      "type": "tf",
+      "topic": "Lookup & Reference",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 70,
+      "type": "tf",
+      "topic": "Financial functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "Holding Ctrl while dragging the fill handle suppresses AutoFill (copies instead of extending series)",
+      "answer": true
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "medium"
+    },
+    {
+      "id": 172,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "medium"
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which key toggles relative/absolute addressing when editing a formula?",
+      "choices": [
+        "F2",
+        "F4",
+        "F9",
+        "F1"
+      ],
+      "answer": "F4",
+      "difficulty": "medium"
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "hard"
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "topic": "Text functions",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "hard"
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "medium"
+    },
+    {
+      "id": 74,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "topic": "Getting Started with Excel",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 96,
+      "type": "tf",
+      "topic": "Logical functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "type": "tf",
+      "topic": "Text functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 1,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which Excel function would you use to add the numbers in cells A1 through A10?",
+      "choices": [
+        "SUM()",
+        "AVERAGE()",
+        "COUNT()",
+        "IF()"
+      ],
+      "answer": "SUM()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 162,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "hard"
+    },
+    {
+      "id": 193,
+      "type": "tf",
+      "topic": "Named Ranges",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 17,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: A chart in Excel updates automatically when the source data changes.",
+      "answer": true
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "easy"
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "hard"
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "hard"
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "medium"
+    },
+    {
+      "id": 79,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 116,
+      "type": "tf",
+      "topic": "Named Ranges",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 20,
+      "type": "tf",
+      "topic": "Filtering and Sorting",
+      "question": "To show only rows where marks are less than 40, you can use Number Filters -> Less Than -> 40",
+      "answer": true
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which chart type is best to show changes over time?",
+      "choices": [
+        "Pie chart",
+        "Column chart",
+        "Line chart",
+        "Scatter plot"
+      ],
+      "answer": "Line chart",
+      "difficulty": "medium"
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 180,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "topic": "AutoFill & Fill Handle",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "easy"
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "topic": "Financial functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "topic": "Financial functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "hard"
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "topic": "Getting Started with Excel",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "hard"
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "hard"
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "medium"
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "hard"
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "type": "tf",
+      "topic": "Lookup & Reference",
+      "question": "VLOOKUP(lookup_value, table_array, col_index, range_lookup) searches vertically in the leftmost column",
+      "answer": true
+    },
+    {
+      "id": 19,
+      "type": "tf",
+      "topic": "Filtering and Sorting",
+      "question": "AutoFilter can filter by cell color and by custom criteria simultaneously",
+      "answer": false
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "topic": "Getting Started with Excel",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "hard"
+    },
+    {
+      "id": 124,
+      "type": "tf",
+      "topic": "Text functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "hard"
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "topic": "Text functions",
+      "question": "Which operator concatenates text in Excel?",
+      "choices": [
+        "&",
+        "+",
+        "|",
+        "*"
+      ],
+      "answer": "&",
+      "difficulty": "medium"
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 113,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 52,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 175,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function joins text strings together?",
+      "choices": [
+        "CONCATENATE() / &",
+        "JOIN()",
+        "TEXTJOIN()",
+        "MERGE()"
+      ],
+      "answer": "CONCATENATE() / &",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "type": "tf",
+      "topic": "Printing & Page Setup",
+      "question": "Page Setup options include orientation, paper size and margins",
+      "answer": true
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "medium"
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "easy"
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 132,
+      "type": "tf",
+      "topic": "Logical functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 135,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 179,
+      "type": "tf",
+      "topic": "Logical functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "topic": "AutoFill & Fill Handle",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "type": "tf",
+      "topic": "Lookup & Reference",
+      "question": "INDEX and MATCH combined are often more flexible than VLOOKUP",
+      "answer": true
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "easy"
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "hard"
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 150,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 133,
+      "type": "tf",
+      "topic": "Text functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which dialog box helps create or edit named ranges centrally?",
+      "choices": [
+        "Name Box",
+        "Define Name / Name Manager",
+        "Format Cells",
+        "Data Validation"
+      ],
+      "answer": "Define Name / Name Manager",
+      "difficulty": "medium"
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "What does $A$1 indicate in Excel?",
+      "choices": [
+        "Relative reference",
+        "Absolute reference (both row and column fixed)",
+        "Mixed reference",
+        "Named range"
+      ],
+      "answer": "Absolute reference (both row and column fixed)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "topic": "Financial functions",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "hard"
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "easy"
+    },
+    {
+      "id": 90,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 91,
+      "type": "tf",
+      "topic": "Financial functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 95,
+      "type": "tf",
+      "topic": "Printing & Page Setup",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 94,
+      "type": "tf",
+      "topic": "Cell Referencing",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "easy"
+    },
+    {
+      "id": 200,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "medium"
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which function returns TRUE if at least one condition is true?",
+      "choices": [
+        "AND()",
+        "OR()",
+        "NOT()",
+        "XOR()"
+      ],
+      "answer": "OR()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "easy"
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 18,
+      "type": "tf",
+      "topic": "Filtering and Sorting",
+      "question": "Filtering in Excel displays only rows that meet specified criteria",
+      "answer": true
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "topic": "Getting Started with Excel",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 142,
+      "type": "tf",
+      "topic": "Lookup & Reference",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Names for ranges must start with:",
+      "choices": [
+        "A letter or underscore",
+        "Number",
+        "Space",
+        "Hyphen"
+      ],
+      "answer": "A letter or underscore",
+      "difficulty": "medium"
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "Double-clicking the fill handle will copy the formula down until an adjacent column is empty",
+      "answer": true
+    },
+    {
+      "id": 138,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "What does COUNTA(range) do?",
+      "choices": [
+        "Count non-empty cells",
+        "Count only numbers",
+        "Sum numbers",
+        "Average values"
+      ],
+      "answer": "Count non-empty cells",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which option centers a title across a range without merging cells visually?",
+      "choices": [
+        "Merge & Center",
+        "Center Across Selection",
+        "Wrap Text",
+        "Format Painter"
+      ],
+      "answer": "Center Across Selection",
+      "difficulty": "medium"
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "topic": "AutoFill & Fill Handle",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "easy"
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "topic": "Charts and Graphs",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "IF(logical_test, value_if_true, value_if_false) is used to:",
+      "choices": [
+        "Perform conditional logic",
+        "Sum a range",
+        "Format cells",
+        "Create charts"
+      ],
+      "answer": "Perform conditional logic",
+      "difficulty": "medium"
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 183,
+      "type": "tf",
+      "topic": "Financial functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "topic": "Text functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 182,
+      "type": "tf",
+      "topic": "Lookup & Reference",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "hard"
+    },
+    {
+      "id": 169,
+      "type": "tf",
+      "topic": "Getting Started with Excel",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "type": "tf",
+      "topic": "Financial functions",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function returns the current date and time?",
+      "choices": [
+        "TODAY()",
+        "NOW()",
+        "DATE()",
+        "TIME()"
+      ],
+      "answer": "NOW()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "topic": "Formatting Worksheets",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "easy"
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "medium"
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "topic": "Financial functions",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "hard"
+    },
+    {
+      "id": 192,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 167,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 51,
+      "type": "tf",
+      "topic": "Spreadsheets and Their Uses",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which feature hides the gridlines in a worksheet?",
+      "choices": [
+        "View -> Gridlines (unchecked)",
+        "Page Layout -> Hide",
+        "File -> Options",
+        "Home -> Hide Grid"
+      ],
+      "answer": "View -> Gridlines (unchecked)",
+      "difficulty": "hard"
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "topic": "Financial functions",
+      "question": "Which menu/tab contains Format Painter?",
+      "choices": [
+        "Home",
+        "Insert",
+        "Data",
+        "View"
+      ],
+      "answer": "Home",
+      "difficulty": "medium"
+    },
+    {
+      "id": 155,
+      "type": "tf",
+      "topic": "AutoFill & Fill Handle",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "topic": "Named Ranges",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "topic": "Filtering and Sorting",
+      "question": "Which Excel function would you use to calculate the average of numbers in A1:A10?",
+      "choices": [
+        "AVERAGE()",
+        "SUM()",
+        "COUNT()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "The DATE(year, month, day) function returns a serial number representing:",
+      "choices": [
+        "A text",
+        "A numeric date serial",
+        "A formatted string",
+        "A boolean"
+      ],
+      "answer": "A numeric date serial",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function returns a random number between 0 and 1?",
+      "choices": [
+        "RAND()",
+        "RANDBETWEEN()",
+        "RANDINT()",
+        "RND()"
+      ],
+      "answer": "RAND()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "If cell B2 contains the formula =A1 and you copy it from B2 to C2, the formula becomes:",
+      "choices": [
+        "=B1",
+        "=A1",
+        "=C1",
+        "=A2"
+      ],
+      "answer": "=B1",
+      "difficulty": "medium"
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "topic": "Logical functions",
+      "question": "Which function rounds a number down to the nearest integer?",
+      "choices": [
+        "ROUND()",
+        "INT()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "INT()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 152,
+      "type": "tf",
+      "topic": "Date & Time functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "topic": "Date & Time functions",
+      "question": "Which function returns only the current date (no time)?",
+      "choices": [
+        "NOW()",
+        "TODAY()",
+        "DATE()",
+        "TIME()"
+      ],
+      "answer": "TODAY()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 140,
+      "type": "tf",
+      "topic": "Text functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 174,
+      "type": "tf",
+      "topic": "Date & Time functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 27,
+      "type": "tf",
+      "topic": "Logical functions",
+      "question": "Nested IFs can replace multiple conditions but IFS or lookup may be cleaner",
+      "answer": true
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "topic": "Getting Started with Excel",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "type": "tf",
+      "topic": "Getting Started with Excel",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 58,
+      "type": "tf",
+      "topic": "Charts and Graphs",
+      "question": "True or False: =SUM(A1:A5) adds the values in cells A1 through A5.",
+      "answer": true
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "topic": "Lookup & Reference",
+      "question": "Which chart type is best for parts of a whole?",
+      "choices": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Column chart"
+      ],
+      "answer": "Pie chart",
+      "difficulty": "easy"
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "topic": "Printing & Page Setup",
+      "question": "Which function returns the minimum value in a range?",
+      "choices": [
+        "MIN()",
+        "MAX()",
+        "SMALL()",
+        "LEAST()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 190,
+      "type": "tf",
+      "topic": "Logical functions",
+      "question": "True or False: You can filter by cell color in AutoFilter",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "topic": "Formulas & Functions",
+      "question": "Which function returns the largest value in a range?",
+      "choices": [
+        "MAX()",
+        "MIN()",
+        "LARGE()",
+        "TOP()"
+      ],
+      "answer": "MAX()",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "topic": "Text functions",
+      "question": "TEXT(value, format_text) is used to:",
+      "choices": [
+        "Convert values to formatted text",
+        "Sum numbers",
+        "Create charts",
+        "Hide cells"
+      ],
+      "answer": "Convert values to formatted text",
+      "difficulty": "medium"
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "topic": "Cell Referencing",
+      "question": "Which operator is used to join text in formulas?",
+      "choices": [
+        "&",
+        "+",
+        "*",
+        "%"
+      ],
+      "answer": "&",
+      "difficulty": "easy"
+    }
+  ]
+}
