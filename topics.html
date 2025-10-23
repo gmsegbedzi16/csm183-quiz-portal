@@ -1,40 +1,5 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Topics - CSM 183 Quiz Portal</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header class="header">
-  <div class="brand">CSM 183 Quiz Portal</div>
-  <nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="topics.html">Topics</a>
-    <a href="quiz.html">Take Quiz</a>
-  </nav>
-</header>
-
-<main class="container">
-  <section class="card">
-    <h2>Topics</h2>
-    <div class="topics-grid" id="topics"></div>
-  </section>
-  <div class="footer">Select a topic to start a focused quiz.</div>
-</main>
-
-<script>
-fetch('questions.json').then(r=>r.json()).then(function(data){
-  var topics = Array.from(new Set(data.questions.map(function(q){return q.topic})));
-  var root = document.getElementById('topics');
-  topics.forEach(function(t){
-    var div = document.createElement('div');
-    div.className = 'topic';
-    div.innerHTML = '<h4>'+t+'</h4><p class="small">Practice questions on '+t+'.</p><p><a class="btn" href="quiz.html?topic='+encodeURIComponent(t)+'">Start</a></p>';
-    root.appendChild(div);
-  });
-});
-</script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Topics - CSM 183 Quiz Portal</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="header"><div class="brand">CSM 183 Quiz Portal</div><nav class="nav"><a href="index.html">Home</a><a href="topics.html">Topics</a><a href="quiz.html">Take Quiz</a></nav></header>
+<main class="container"><section class="card"><h2>Topics</h2><div class="topics-grid" id="topics"></div></section><div class="footer">Select a topic to start a focused quiz.</div></main>
+<script>fetch('questions.json').then(r=>r.json()).then(function(data){var topics=Array.from(new Set(data.questions.map(function(q){return q.topic})));var root=document.getElementById('topics');topics.forEach(function(t){var div=document.createElement('div');div.className='topic';div.innerHTML='<h4>'+t+'</h4><p class="small">Practice questions on '+t+'.</p><p><a class="btn" href="quiz.html?topic='+encodeURIComponent(t)+'">Start</a></p>';root.appendChild(div);});});</script></body></html>

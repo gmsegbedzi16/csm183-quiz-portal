@@ -1,10 +1,15 @@
-CSM 183 Quiz Portal
+CSM 183 Quiz Portal - 500 question bank
 
-This package contains a simple multi-page offline-capable learning website called 'CSM 183 Quiz Portal'.
+This package contains a 500-question bank derived exclusively from the uploaded CSM183 lecture slides (Microsoft Excel & PowerPoint).
+Questions include MCQ, True/False, and drag-to-fill types. The drag questions present a pool of possible answers to choose from.
 
-Source:
-- CSM183 lecture slides (uploaded by user). Questions were derived from that file. File reference: fileciteturn0file0
+Source: CSM183 lecture slides (uploaded by user). filecite
 
-Files included: index.html, topics.html, quiz.html, styles.css, questions.json, service-worker.js, manifest.json, README.txt
+Files included:
+- index.html
+- topics.html
+- quiz.html
+- styles.css
+- questions.json (500 questions)
 
-How to host: upload to GitHub Pages / Netlify / Firebase Hosting.
+How to deploy: upload to GitHub Pages, Netlify, or Firebase Hosting. For GitHub Pages, push these files to the repository root on the main branch.

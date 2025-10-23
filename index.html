@@ -1,53 +1,5 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>CSM 183 Quiz Portal</title>
-<link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header class="header">
-  <div class="brand">CSM 183 Quiz Portal</div>
-  <nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="topics.html">Topics</a>
-    <a href="quiz.html">Take Quiz</a>
-  </nav>
-</header>
-
-<main class="container">
-  <section class="card">
-    <h2>Welcome</h2>
-    <p class="small">This study portal was generated from your uploaded CSM183 lecture slides (Excel & PowerPoint). It contains 200 practice questions across Excel topics. The site works offline after first load.</p>
-    <p>
-      <a class="btn" href="quiz.html">Start a Random Quiz</a>
-      <a class="btn" href="topics.html" style="background:#0747a6;margin-left:8px">Browse Topics</a>
-    </p>
-  </section>
-
-  <section class="card">
-    <h3>How this works</h3>
-    <ol>
-      <li>Open <strong>Take Quiz</strong> to begin a timed set of questions drawn from the 200-question bank.</li>
-      <li>Your score is calculated and shown on the Results page. You can retry as many times as you want.</li>
-      <li>The site is offline-capable using a service worker (works after first successful load).</li>
-    </ol>
-  </section>
-
-  <section class="card">
-    <h3>Source</h3>
-    <p class="small">Questions were derived from your uploaded file: CSM183 lecture slides (Excel & PowerPoint). For reference: see the project README inside the download package. fileciteturn0file0</p>
-  </section>
-
-  <div class="footer">Built for easy sharing — host the files on GitHub Pages, Netlify, or Firebase Hosting.</div>
-</main>
-
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js').catch(()=>{});
-}
-</script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>CSM 183 Quiz Portal</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="header"><div class="brand">CSM 183 Quiz Portal</div><nav class="nav"><a href="index.html">Home</a><a href="topics.html">Topics</a><a href="quiz.html">Take Quiz</a></nav></header>
+<main class="container"><section class="card"><h2>Welcome</h2><p class="small">This portal contains a 500-question bank derived from your uploaded slides.</p><p><a class="btn" href="quiz.html">Start Random Quiz (50)</a> <a class="btn" href="topics.html" style="background:#0747a6;margin-left:8px">Browse Topics</a></p></section>
+<section class="card"><h3>Source</h3><p class="small">Questions derived from uploaded CSM183 lecture slides. fileciteturn0file0</p></section><div class="footer">Host on GitHub Pages, Netlify, or Firebase.</div></main></body></html>
